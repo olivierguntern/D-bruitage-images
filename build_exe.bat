@@ -9,7 +9,7 @@ pip install PyQt5 opencv-python numpy scipy scikit-image Pillow PyWavelets pyins
 
 echo.
 echo === Construction de l'executable ===
-pyinstaller d_bruitage.spec --clean
+python -m PyInstaller d_bruitage.spec --clean
 
 echo.
 if exist "dist\D-Bruitage-Images.exe" (
